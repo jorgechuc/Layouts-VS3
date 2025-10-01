@@ -5,21 +5,13 @@
              Title="Grid">
 
     <Grid
+        RowDefinitions="*,*,2*"
+        ColumnDefinitions="2*,2*,*"
         Margin="16"
         Padding="16"
         BackgroundColor="Beige"
         RowSpacing="8"
         ColumnSpacing="12">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="2*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
         
         <Button 
             Text="Uno"/>
@@ -36,10 +28,6 @@
             Text="Cuatro"
             Grid.Row="1"
             Grid.Column="0"/>
-        <!--<Label 
-            Text="Este es un texto"
-            Grid.Row="1"
-            Grid.Column="1"/>-->
         <Button 
             Text="Cinco"
             Grid.Row="1"
